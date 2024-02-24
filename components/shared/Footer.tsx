@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -7,16 +7,16 @@ const Footer = () => {
       <div className="flex-center wrapper flex-between flex flex-col gap-4 p-5 text-cebter sm:flex-row">
         <Link href="/">
           <Image
-            src="/assets/images/logo.svg"
+            src="/assets/images/logo3.svg"
             alt="logo"
-            width={128}
-            height={38}
+            width={175}
+            height={100}
           />
         </Link>
         <p>2024 Evently. All Rights Reserved</p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
